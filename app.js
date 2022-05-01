@@ -1,5 +1,5 @@
 var express = require('express');
-const stripe = require('stripe')('sk_test_51Ku8oBA2iD5ucZecQ8uVmwAf5UgRfJGBgRWeeYGe9u8uyJD1EsvIUzQl1NlOQR0m94BZwSlEhWKCNZ9TsH1YIAtw00ZC79SZB7');
+const stripe = require('stripe')('sk_test_51Ku8oBA2iD5ucZecQ8uVmwAf5UgRfJGBgRWeeYGe9u8uyJD1zQl1NlOQR0m94BZwSlEhWKCNZ9TsH1YIAtw00ZC79SZB7');
 var app = express();
 
 app.listen(3000, function () {
